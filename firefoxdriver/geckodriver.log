@@ -1,0 +1,26 @@
+1639306732635	geckodriver	INFO	Listening on 127.0.0.1:2296
+1639306917745	geckodriver	INFO	Listening on 127.0.0.1:2304
+1639312052594	geckodriver	INFO	Listening on 127.0.0.1:2573
+1639312053374	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2574" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilesKGO5o"
+1639312525869	geckodriver	INFO	Listening on 127.0.0.1:2734
+1639312527335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2735" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilezXR5H3"
+1639312549464	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1639312550813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1639312550813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1639312550813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1639312550813	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[GFX1-]: Mismatched driver versions between the registry 8.15.10.2559 and DLL(s) 9.17.10.3347,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.15.10.2559 and DLL(s) 9.17.10.3347,  reported.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[GFX1-]: Mismatched driver versions between the registry 8.15.10.2559 and DLL(s) 9.17.10.3347,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.15.10.2559 and DLL(s) 9.17.10.3347,  reported.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:125:16\n"
+JavaScript error: chrome://remote/content/RemoteAgent.jsm, line 36: Error: Remote agent is disabled by preference
+1639312576488	Marionette	INFO	Listening on port 2740
+DevTools listening on true
+1639312577141	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://st.vk.com/dist/web/grip.e6d5641c7ffee186a2f9.js?898b9b5554ef10337ccb74bc20604d5f, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://st.vk.com/dist/web/grip.e6d5641c7ffee186a2f9.js?898b9b5554ef10337ccb74bc20604d5f, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://st.vk.com/dist/web/grip.e6d5641c7ffee186a2f9.js?898b9b5554ef10337ccb74bc20604d5f, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://st.vk.com/dist/web/grip.e6d5641c7ffee186a2f9.js?898b9b5554ef10337ccb74bc20604d5f, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+1639312597426	Marionette	INFO	Stopped listening on port 2740
