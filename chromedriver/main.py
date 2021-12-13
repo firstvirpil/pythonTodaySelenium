@@ -6,6 +6,8 @@ from fake_useragent import UserAgent
 
 # url = "https://www.instagram.com/"
 # url_whatis = "https://www.whatismybrowser.com/detect/what-is-my-user-agent"
+from proxy_auth_data import login, password
+
 url_2ip = "https://2ip.ru"
 
 user_agent_list = [
@@ -26,10 +28,22 @@ options = webdriver.ChromeOptions()
 options.add_argument(f"user-agent={useragent.random}")
 
 # set proxy
-options.add_argument("--proxy-server=138.128.91.65:8000")
+# это для прокси без авторизации
+options.add_argument("--proxy-server=62.171.167.176:3128")
+
+# это с авторизацией
+'''
+proxy_options = {
+    "proxy": {
+        "https": f"http://{login}:{password}@138.128.91.65:8000"
+    }
+}
+'''
 
 # driver = webdriver.Chrome(executable_path="chromedriver", options=options)
 driver = webdriver.Chrome(executable_path="chromedriver", options=options)
+# driver = webdriver.Chrome(executable_path="chromedriver", seleniumwire_options=proxy_options)
+
 try:
     # driver.get(url=url_whatis)
     # time.sleep(5)
