@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/easyocr/result.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/tesseract/russian_text_lang rus_no_psm.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/tesseract/russian_text_lang_eng.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/tesseract/russian_text_lang_rus_psm6.txt" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/tesseract/russian_text_psm 13.txt" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
